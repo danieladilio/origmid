@@ -1,14 +1,53 @@
 @charset "UTF-8";
-.car {
-  font-weight: bolder;
-  text-align: center;
+* {
+  margin: 0px;
+  paading: 0px;
 }
-h1 {
+.car {
+  text-shadow: 1px 1px solid rgba(0, 0, 0, 0.775);
+  color: black;
+  text-align: center;
+  margin: 20px;
+  font-size: 3em;
+  padding: 20px;
+  margin: 20px;
+}
+h1,
+p {
   color: white;
 }
 div h1 strong {
   color: gold;
 }
+div p strong {
+  color: gold;
+}
 div {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.844);
+  max-width: 1000px;
+  min-width: 400px;
+  width: 85%;
+  height: 250px;
+  border-radius: 10px;
+  padding: 20px;
+
+  margin: auto;
+}
+div h1 {
+  margin-bottom: 30px;
+}
+.carros {
+  font-size: 1.6em;
+}
+div a {
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 15px;
+  font-weight: bolder;
+}
+div p {
+  margin-bottom: 40px;
 }
