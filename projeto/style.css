@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.car {
+  font-weight: bolder;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+div h1 strong {
+  color: gold;
+}
+div {
+  background-color: black;
+}
