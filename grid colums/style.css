@@ -12,7 +12,7 @@
 
 .info {
   display: grid;
-  gap: 30px;
+  gap: 20px;
   place-items: start;
 }
 
