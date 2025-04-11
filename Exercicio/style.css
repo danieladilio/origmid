@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 40px;
+}
+
+.titulo {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.descricao {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  grid-column: 1 / -1; /* Ocupa toda a largura da grid */
+}
+
+.descricao h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+.imagem {
+  max-width: 100%;
+  grid-column: 2;
+}
