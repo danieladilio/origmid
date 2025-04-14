@@ -9,6 +9,7 @@
 }
 
 .titulo {
+  font-size: 3em;
   grid-column: 1 / -1;
   text-align: center;
 }
@@ -23,10 +24,12 @@
 .descricao h2 {
   font-size: 18px;
   margin: 0;
+  background-color: bisque;
 }
 
 .conteudo {
   padding: 20px;
+  background-color: rgba(255, 248, 220, 0.4);
 }
 
 .imagem {
