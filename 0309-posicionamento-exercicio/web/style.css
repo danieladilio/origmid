@@ -64,7 +64,7 @@ p {
 .detalhe {
   width: 60px;
   height: 4px;
-  background: blue;
+  background: #e21;
   position: absolute;
   top: 30px;
   right: -30px;
