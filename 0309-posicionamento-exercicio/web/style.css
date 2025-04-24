@@ -42,6 +42,9 @@ p {
   color: #000000;
   text-transform: uppercase;
 }
+.menu a:hover {
+  border: 2px solid rgb(197, 31, 16);
+}
 
 .conteudo {
   display: grid;
@@ -75,6 +78,9 @@ p {
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+}
+.botao:hover {
+  background-color: rgb(133, 15, 5);
 }
 
 .subtitulo {
