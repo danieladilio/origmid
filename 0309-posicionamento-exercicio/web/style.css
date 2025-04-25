@@ -46,13 +46,14 @@ p {
 .menu a {
   display: block;
   background: #ffffff;
-  padding: 0.9375rem 1.875rem;
+  padding: 1rem 2rem;
   border-radius: 0.25rem;
   color: #000000;
   text-transform: uppercase;
+  border: 2px solid transparent;
 }
 .menu a:hover {
-  border: 0.125rem solid rgb(197, 31, 16);
+  border: 2px solid #e21;
 }
 
 .conteudo {
@@ -75,7 +76,8 @@ p {
   font-size: 2rem;
 }
 
-.detalhe {
+.introducao::before {
+  content: "";
   width: 3.75rem;
   height: 0.25rem;
   background: #e21;
@@ -87,12 +89,12 @@ p {
 .botao {
   background: #e21;
   color: #fff;
-  padding: 0.9375rem 1.875rem;
-  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
   text-transform: uppercase;
 }
 .botao:hover {
-  background-color: rgb(133, 15, 5);
+  background-color: #900;
 }
 
 .subtitulo {
@@ -100,28 +102,30 @@ p {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
-  padding: 2.5rem;
+  padding: 40px;
   align-self: center;
-  background: url(img/onda.svg);
+  background-image: url(img/onda.svg);
 }
 
 .vantagens {
   background: #fff;
-  padding: 2.5rem;
+  padding: 40px;
 }
-
+.vantagens-item:nth-child(odd) {
+  background-color: #f7f7f7;
+}
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.625rem 1.25rem;
   padding: 1.25rem;
+  border-left: 4px solid transparent;
 }
-
+.vantagens-item:hover {
+  border-left: 4px solid #e21;
+}
 .vantagens-item p {
   grid-column: 2;
-}
-.vantagens-item:nth-child(odd) {
-  background-color: rgba(192, 204, 215, 0.644);
 }
 
 .rodape {
