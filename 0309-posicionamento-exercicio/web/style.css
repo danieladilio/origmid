@@ -119,8 +119,7 @@ p {
   grid-template-columns: auto 1fr;
   gap: 0.625rem 1.25rem;
   padding: 1.25rem;
-
-  box-sizing: border-box;
+  border-left: 4px solid transparent;
 }
 .vantagens-item:hover {
   border-left: 4px solid #e21;
