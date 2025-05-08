@@ -85,6 +85,10 @@ p {
   top: 1.875rem;
   right: -1.875rem;
 }
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
 
 .botao {
   background: #e21;
@@ -134,4 +138,31 @@ p {
   text-align: center;
   padding: 2.5rem;
   box-sizing: border-box;
+}
+@media (max-width: 1000px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1 fr;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .introducao::before {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
 }
