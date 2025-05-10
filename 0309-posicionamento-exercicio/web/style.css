@@ -165,4 +165,7 @@ p {
   .subtitulo {
     font-size: 3rem;
   }
+  .botao {
+    align-self: center;
+  }
 }
