@@ -59,7 +59,7 @@ p {
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 62.5rem;
+  max-width: 1000px;
 }
 
 .introducao {
@@ -78,12 +78,12 @@ p {
 
 .introducao::before {
   content: "";
-  width: 3.75rem;
-  height: 0.25rem;
+  width: 60px;
+  height: 4px;
   background: #e21;
   position: absolute;
-  top: 1.875rem;
-  right: -1.875rem;
+  top: 30px;
+  right: -30px;
 }
 .introducao-cover img {
   object-fit: cover;
@@ -165,7 +165,9 @@ p {
   .subtitulo {
     font-size: 3rem;
   }
-  .botao {
-    align-self: center;
+}
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2rem;
   }
 }
