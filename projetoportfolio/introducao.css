@@ -10,8 +10,9 @@
 }
 .introducao h1 {
   font-size: 4.5rem;
-  line-height: 1.25rem;
+  line-height: 1.125;
   margin-bottom: 30px;
+  position: relative;
 }
 .introducao h1::before {
   content: "";
@@ -24,12 +25,13 @@
   left: -40px;
   z-index: -1;
 }
+
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
 }
 @media (max-width: 1000px) {
-  .introducao {
+  .introducao h1 {
     font-size: 3rem;
   }
 }
