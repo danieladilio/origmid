@@ -87,7 +87,7 @@
   background: url(./img/cursos.svg) no-repeat center center;
   position: absolute;
   left: -36px;
-  top: -4px;
+  top: 10px;
 }
 .cursos h3::before {
   background: url(img/cursos.svg) no-repeat center center;
