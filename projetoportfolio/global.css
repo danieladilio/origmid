@@ -22,7 +22,6 @@ img {
   display: block;
 }
 .subtitulo {
-  flex: 1;
   font-size: 8rem;
   line-height: 1;
   text-transform: uppercase;
