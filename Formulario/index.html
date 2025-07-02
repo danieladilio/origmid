@@ -10,7 +10,35 @@
   <body>
     <form action="./">
       <label for="nome">Nome</label>
-      <input type="text" id="nome" name="nomes" />
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="nome" />
+      <div class="checkbox">
+        <input type="checkbox" id="termos" name="termos" value="aceito" />
+        <label for="termos">Termos</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="anuncio" name="anuncio" />
+        <label for="anuncio">Desejo receber anúncios</label>
+      </div>
+
+      <p>Entrega</p>
+
+      <div class="radio">
+        <input type="radio" id="retirada" name="retirada" />
+        <label for="retirada">Retirar no Local</label>
+      </div>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="idade">Idade</label>
+      <input type="number" id="idade" name="idade" required />
+
+      <label for="saída">Saída do Hotel</label>
+      <input type="date" id="saida" name="saida" required />
 
       <button>Enviar</button>
     </form>
