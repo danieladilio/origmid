@@ -36,3 +36,22 @@ button {
   width: 40px;
   height: 20px;
 }
+select {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+textarea {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-size: 2rem;
+  padding: 10px 20px;
+  background: #caf;
+  border: none;
+  color: #217;
+  border-radius: 4px;
+  cursor: pointer;
+}
